@@ -14,7 +14,7 @@ MOV UP DOWN
 
 
 @5
-#Y
+# Y
 S: MOV UP ACC
 SUB 18
 NEG
