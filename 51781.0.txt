@@ -1,0 +1,49 @@
+@0
+
+
+@1
+
+
+@2
+
+
+@3
+
+
+@4
+
+
+@5
+
+
+@6
+
+
+@7
+
+
+@8
+S: MOV ACC RIGHT
+ADD 2
+SAV
+SUB 30
+JGZ R1
+JEZ R0
+SWP
+MOV 0 RIGHT
+JMP S
+R1: MOV 0 ACC
+MOV 1 RIGHT
+JMP S
+R0: MOV 1 ACC
+MOV 1 RIGHT
+
+@9
+MOV LEFT DOWN
+MOV ACC DOWN
+ADD LEFT
+MOV 3 DOWN
+MOV -1 DOWN
+
+@10
+

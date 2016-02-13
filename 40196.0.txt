@@ -1,0 +1,46 @@
+@0
+
+
+@1
+S:
+MOV UP ACC
+JNZ NO
+MOV 0 DOWN
+MOV UP ACC
+JNZ NO
+MOV 0 DOWN
+MOV UP ACC
+JNZ NO
+
+YES: MOV 1 DOWN
+MOV UP ACC
+JEZ YES
+
+NO: MOV 0 DOWN
+
+@2
+
+
+@3
+
+
+@4
+MOV UP DOWN
+
+@5
+
+
+@6
+
+
+@7
+
+
+@8
+MOV UP RIGHT
+
+@9
+MOV LEFT DOWN
+
+@10
+
